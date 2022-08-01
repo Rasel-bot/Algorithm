@@ -2,7 +2,7 @@ def binary_search(L,x):
 	left, right = 0, len(L)-1
 	
 	while left <= right :
-		mid = left + right//2
+		mid = (left + right)//2
 		if L[mid] == x:
 			return mid
 		elif L[mid]<x:
